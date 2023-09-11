@@ -24,11 +24,7 @@
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#teams" class="menu-btn">Teams</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
-            </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
             </div>
@@ -45,17 +41,16 @@
                 <div class="text-1">Hello, my name is</div>
                 <div test-id="slackUserName" class="text-2">Desmond Teko</div>
                 <div class="text-3">And I'm a <span data-testid="myTrack" class="typing"></span></div>
-                <a href="#">Hire me</a>
+                <a data-testid="githubURL" href="https://github.com/Desmond51/HNGx">GitHub URL</a>
             </div>
         </div>
     </section>
-    <!--  Date and time section -->
-    <!-- <div>Current day</div>
-    <strong class="day"></strong>
-    <div id="current-day">Current day</div>
-    <strong id="time"></strong> -->
-
-    <!-- about section start -->
+   <section class="profile">
+    <div class="container">
+        <p class="current_day" data-testid="currentDayOfTheWeek"></p>
+        <p class="current_time" data-testid="currentUTCTime"></p>
+      </div>
+   </section>
     
     <section class="about" id="about">
         <div class="max-width">
@@ -163,69 +158,6 @@
             </div>
         </div>
     </section>
-
-    <!-- contact section start -->
-    <section class="contact" id="contact">
-        <div class="max-width">
-            <h2 class="title">Contact me</h2>
-            <div class="contact-content">
-                <div class="column left">
-                    <div class="text">Get in Touch</div>
-                   
-                    <div class="icons">
-                        <div class="row">
-                            <i class="fas fa-user"></i>
-                            <div class="info">
-                                <div class="head">Name</div>
-                                <div test-id="slackUserName" class="sub-title">Desmond Teko</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div class="info">
-                                <div class="head">Address</div>
-                                <div class="sub-title">Buea, Cameroon</div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <i class="fas fa-envelope"></i>
-                            <div class="info">
-                                <div class="head">Email</div>
-                                <div class="sub-title">desmondtekum9@gmail.com</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column right">
-                    <div class="text">Message me</div>
-                    <form action="#">
-                        <div class="fields">
-                            <div class="field name">
-                                <input type="text" placeholder="Name" required>
-                            </div>
-                            <div class="field email">
-                                <input type="email" placeholder="Email" required>
-                            </div>
-                        </div>
-                        <div class="field">
-                            <input type="text" placeholder="Subject" required>
-                        </div>
-                        <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
-                        </div>
-                        <div class="button-area">
-                            <button type="submit">Send message</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- footer section start -->
-    <footer>
-        <span>Created By <a href="https://www.codingnepalweb.com">CodingNepal</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
-    </footer>
 
     <script src="index.js"></script>
 </body>

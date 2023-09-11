@@ -76,6 +76,21 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
+/* profile */
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    color: crimson;
+    background-color: #111;
+    font-size: 40px;
+
+}
 
 /* navbar styling */
 .navbar{
