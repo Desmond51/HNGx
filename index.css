@@ -352,7 +352,7 @@ section .title::after{
     content: "some projects i worked on";
 }
 .teams .carousel .card{
-    background: #222;
+    background: white;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
