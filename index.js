@@ -39,8 +39,8 @@ $(document).ready(function(){
             prepand = "AM";
         }
     }
-    document.getElementById(".time").innerHTML = "Current time is:" + ':' + hour + prepand + ':' + minute +':' + seconds;
-// console.log("Current time is :" + hour + prepand + ":" + minute + ":" + seconds)
+//     document.getElementById(".time").innerHTML = "Current time is:" + ':' + hour + prepand + ':' + minute +':' + seconds;
+// // console.log("Current time is :" + hour + prepand + ":" + minute + ":" + seconds)
       
     $(window).scroll(function(){
         // sticky navbar on scroll script
